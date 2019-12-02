@@ -30,9 +30,8 @@
 							
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#abstract" id="abstract-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Motivation</span></a></li>
-								<li><a href="#paper" id="paper-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Report</span></a></li>
 								<li><a href="#method" id="method-link" class="skel-layers-ignoreHref"><span class="icon fa-pencil">Approach</span></a></li>
-								<li><a href="#result" id="result-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Visualization</span></a></li>
+								<li><a href="#result" id="result-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">LDA Visualization</span></a></li>
 								<li><a href="#code" id="code-link" class="skel-layers-ignoreHref"><span class="icon fa-hand-rock-o">Demo Website</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Member</span></a></li>
 							<!--
@@ -58,8 +57,9 @@
 						<div class="container">
 							<header>
 								<h2 class="alt"><strong>Good2Know: Instagram Social Good Trending Post Recommender</strong></h2>
-								<h4>Jeff Chang, Yi-Min Chou, Chun-Jung Chien, Ting-Kuei Hu
-<h4>
+								<h4>Jeff Chang, Yi-Min Chou, Chun-Jung Chien, Ting-Kuei Hu</h4>
+								<h6><a href="https://github.com/yyyjoe/Good2Know">Github Website</a></h6>
+
 							</header>
 							
 						</div>
@@ -82,19 +82,7 @@
 						</div>
 					</section>
 
-				<!-- Paper -->
-					<section id="paper" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Report</h2>
-							</header>
-
-							<a target="_blank" href="6032-F.pdf" class="image featured"><img src="images/paper.jpg" alt="" /></a>
-
-
-						</div>
-					</section>
+				
 				<!-- Method -->
 					<section id="method" class="four">
 						<div class="container">
@@ -106,7 +94,8 @@
                             <p align="left"> <strong> 2. Topic Modeling:</strong> Apply LDA on trending posts to discover particular topics and label which topic is social good related. Remove the documents with less social good related information, and get the social good posts feature vector from LDA algorithm.
 </p> 
                             <p align="left"> <strong> 3. Recommendation:</strong> For each user, we first do user profiling based on their posts, and use a similarity algorithm to find out the close posts in feature space and generate recommendations based on this closeness.</p>
-    
+    						
+    						<img style="width: 80%;"src="images/flowchart.gif"/>
                             
 
 						</div>
@@ -115,8 +104,11 @@
 					<section id="result" class="two">
 						<div class="container">
 							<header>
-								<h2>Result</h2>
+								<h2>LDA Visualization</h2>
 							</header>
+							<img style="width: 50%;"src="images/topic0.png"/><img style="width: 50%;"src="images/topic1.png"/>
+							<br/>
+							<img style="width: 50%;"src="images/topic2.png"/><img style="width: 50%;"src="images/topic3.png"/>
 
 						</div>		   								
 					</section>					
@@ -131,11 +123,7 @@
 
 						<div>					
 					</section>
-					
-
-
-
-			
+				
 							<!-- Contact -->
 					<section id="contact" class="one">
 						<div class="container">
@@ -145,44 +133,51 @@
 							</header>
 
 							<ul id = "member-list">
-								<li>
+								<li style="width: 30%">
 									<div class= "member";>
-										<a target="_blank" href="http://emclab.citi.sinica.edu.tw/"><div class="contactSelfie"><img src="images/tkhu.jpg"/></div></a>
-										<p> Jeff Chang </p>
+										<!-- <a target="_blank" href="http://emclab.citi.sinica.edu.tw/"> --><div class="contactSelfie"><img src="images/jeff.png"/></div></a>
+										<p>Jeff Chang</p>
 										<ul class="icons">
-										<li><a href="https://github.com/tingkuei" class="icon circle fa-github"><span class="label">Github</span></a></li>
-										<li><a href="mailto:tkhu@citi.sinica.edu.tw" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>	
+										<li><a href="https://github.com/ChiehFu" class="icon circle fa-github"><span class="label">Github</span></a></li>
+										<li><a href="mailto:jeff_chang@tamu.edu" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>	
 									</ul>
 									</div>
 								</li>
-								<li>
+								<li style="width: 30%">
 									<div class= "member">
-										<a target="_blank" href="https://www.citi.sinica.edu.tw/pages/yylin/"><div class="contactSelfie"><img src="images/tkhu.jpg"/></div></a>
+										<!-- <a target="_blank" href="https://www.citi.sinica.edu.tw/pages/yylin/"> --><div class="contactSelfie"><img src="images/joe.jpg"/></div></a>
 										<p> Yi-Min Chou </p>
 										<ul class="icons">
-										<li><a href="https://github.com/tingkuei" class="icon circle fa-github"><span class="label">Github</span></a></li>
-										<li><a href="mailto:yylin@citi.sinica.edu.tw" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
+										<li><a href="https://github.com/yyyjoe" class="icon circle fa-github"><span class="label">Github</span></a></li>
+										<li><a href="mailto:yiminchou1994@tamu.edu" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
 									</ul>
 									</div>
 								</li>
-								<br/>
-								<li>
+								
+									</ul>
+									</div>
+								</li>
+								
+								
+							</ul>
+							<ul id = "member-list">
+								<li style="width: 30%">
 									<div class= "member">
-										<a target="_blank" href="https://www.citi.sinica.edu.tw/pages/pchsiu"><div class="contactSelfie"><img src="images/tkhu.jpg"/></div></a>
+										<a target="_blank" href="https://amycjchien.github.io/"><div class="contactSelfie"><img src="images/amy.png"/></div></a>
 										<p> Chun-Jung Chien</p>
 										<ul class="icons">
-										<li><a href="https://github.com/tingkuei" class="icon circle fa-github"><span class="label">Github</span></a></li>
-										<li><a href="mailto:pchsiu@citi.sincia.edu.tw" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
+										<li><a href="https://github.com/amycjchien" class="icon circle fa-github"><span class="label">Github</span></a></li>
+										<li><a href="mailto:amy88328@tamu.edu" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
 									</ul>
 									</div>
 								</li>
-                                <li>
+                                <li style="width: 30%">
 									<div class= "member">
-										<a target="_blank" href="https://www.citi.sinica.edu.tw/pages/pchsiu"><div class="contactSelfie"><img src="images/tkhu.jpg"/></div></a>
+										<!-- <a target="_blank" href="https://www.citi.sinica.edu.tw/pages/pchsiu"> --><div class="contactSelfie"><img src="images/tkhu.jpg"/></div></a>
 										<p> Ting-Kuei Hu </p>
 										<ul class="icons">
 										<li><a href="https://github.com/tingkuei" class="icon circle fa-github"><span class="label">Github</span></a></li>
-										<li><a href="mailto:pchsiu@citi.sincia.edu.tw" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
+										<li><a href="mailto:tkhu@tamu.edu" class="icon circle fa-envelope-o"><span class="label">Email</span></a></li>
 									</ul>
 									</div>
 								</li>
@@ -197,7 +192,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>Ting-Kueu Hu &copy; 2019</li>
+						<li>Jeff Chang, Yi-Min Chou, Chun-Jung Chien, Ting-Kuei Hu &copy; 2019</li>
 					</ul>
 
 			</div>
