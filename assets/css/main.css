@@ -1688,6 +1688,14 @@
 		font-size: 0.8em;
 		line-height: 1.3em;
 	}*/
+	p.nickname
+	{
+		margin-bottom: 2em;
+		font-size: 0.8em;
+		line-height: 1.3em;
+		margin: 0 0em 0em 0em;
+		text-align: left;
+	}
 	p{
 		margin-bottom: 2em;
 		font-size: 0.8em;
